@@ -7,7 +7,7 @@ export function useDeleteAccount() {
 
   return useMutation({
     // اعمله بكرهdeleteAccountApi 
-    mutationFn: () => deleteAccountApi,
+    // mutationFn: () => deleteAccountApi,
     onSuccess: () => {
       toast.add({
         type: "success",

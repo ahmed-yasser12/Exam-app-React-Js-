@@ -94,13 +94,13 @@ src
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/exam-app.git
+git clone https://github.com/ahmed-yasser12/Exam-app-React-Js-.git
 ```
 
 ### 2. Navigate to the project
 
 ```bash
-cd exam-app
+cd Exam-app-React-Js
 ```
 
 ### 3. Install dependencies

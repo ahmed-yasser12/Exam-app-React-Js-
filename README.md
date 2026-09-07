@@ -118,7 +118,7 @@ npm run dev
 The application will run on:
 
 ```text
-https://ahmed-yasser12.github.io/Exam-app-React-Js-/login
+https://ahmed-yasser12.github.io/Exam-app-React-Js-/
 ```
 
 ---

@@ -8,7 +8,7 @@ import { routes } from "./routes";
 import App from "./App";
 
 const router = createBrowserRouter(routes, {
-  basename: "/Exam-app-React-Js",
+  basename: "/Exam-app-React-Js-",
 });
 
 const root = document.getElementById("root");

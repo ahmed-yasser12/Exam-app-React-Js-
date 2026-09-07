@@ -4,7 +4,7 @@ import tailwindcss from '@tailwindcss/vite'
 import path from "path"
 // https://vite.dev/config/
 export default defineConfig({
-  base:"/Exam-app-React-Js/",
+  base:"/Exam-app-React-Js-/",
   plugins: [react() ,  tailwindcss(),],
     resolve: {
     alias: {

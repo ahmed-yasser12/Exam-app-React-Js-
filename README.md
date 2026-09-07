@@ -1,75 +1,173 @@
-# React + TypeScript + Vite
+# 🎓 Exam App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern and responsive online examination platform built with React and TypeScript. The application allows users to explore diplomas, take exams, track their results, and manage their profile.
 
-Currently, two official plugins are available:
+## ✨ Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+### 🔐 Authentication
+- User login
+- User registration
+- Email verification
+- OTP verification
+- Forgot password
+- Reset password
 
-## React Compiler
+### 🎓 Diplomas
+- Browse available diplomas
+- View diploma details
+- Explore exams for each diploma
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### 📝 Exams
+- View exam details
+- Answer multiple-choice questions
+- Navigate between questions
+- Track exam progress
+- Exam timer
+- Submit exam answers
 
-## Expanding the ESLint configuration
+### 📊 Results
+- View exam score
+- View correct and wrong answers
+- View detailed question analytics
+- Track previous submissions
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+### ⚙️ Settings
+- Update profile information
+- Upload profile image
+- Change email with OTP verification
+- Update phone number
+- Delete account
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+---
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+## 🛠️ Tech Stack
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+### Frontend
 
+- React
+- TypeScript
+- React Router
+- TanStack Query
+- React Hook Form
+- Zod
+- Tailwind CSS
+- shadcn/ui
+- Lucide React
+
+### Tools
+
+- Vite
+- Git
+- GitHub
+
+---
+
+## 📂 Project Structure
+
+```text
+src
+│
+├── features
+│   ├── auth
+│   ├── diplomas
+│   ├── exams
+│   ├── submissions
+│   └── settings
+│
+├── components
+│   └── Ui
+│
+├── shared
+│   ├── components
+│   ├── lib
+│   └── types
+│
+├── routes
+│
+└── main.tsx
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+---
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+## 🚀 Getting Started
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+### 1. Clone the repository
 
+```bash
+git clone https://github.com/YOUR_USERNAME/exam-app.git
 ```
+
+### 2. Navigate to the project
+
+```bash
+cd exam-app
+```
+
+### 3. Install dependencies
+
+```bash
+npm install
+```
+
+### 4. Run the development server
+
+```bash
+npm run dev
+```
+
+The application will run on:
+
+```text
+http://localhost:5173
+```
+
+---
+
+## 📦 Available Scripts
+
+### Run development server
+
+```bash
+npm run dev
+```
+
+### Build for production
+
+```bash
+npm run build
+```
+
+### Preview production build
+
+```bash
+npm run preview
+```
+
+---
+
+## 🔗 API
+
+This project integrates with REST APIs for:
+
+- Authentication
+- User profile management
+- Diplomas
+- Exams
+- Questions
+- Submissions
+
+---
+
+
+## 👨‍💻 Author
+
+Ahmed Yasser
+
+Frontend Developer
+
+- GitHub: https://github.com/ahmed-yasser12
+- LinkedIn: https://www.linkedin.com/in/ahmed-yasser-b34375228/
+
+---
+
+⭐ If you like this project, feel free to give it a star!
